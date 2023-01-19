@@ -1,0 +1,97 @@
+.logOut{
+    font-size: 1.3rem;
+    outline: none;
+    box-shadow: 3px ;
+    border-radius: 10px ; ;
+    background-color: red;
+    color: white;
+    border: 1px solid rgba(255, 0, 0, 0.548);
+
+}
+.saveChanges{
+    font-size: 1.3rem;
+    outline: none;
+    box-shadow: 3px ;
+    border-radius: 10px ; ;
+    background-color: rgb(0, 24, 44);
+    color: white; 
+    margin-right: 29vw;
+}
+.AccountCont{
+    padding: 0 10vw 0 10vw;
+}
+.textInput{ 
+    background-color: white; 
+    outline: none; 
+    width: 50vw;
+    border: 1px solid #002f34;
+    border-radius: 5px;
+    margin-bottom: 0; 
+    font-size: 3rem;
+    font-weight: 400; 
+    font-size: 1.5rem;
+} 
+.PhoneInputCountrySelect{
+    display: none !important;
+}
+.PhoneInputAccount>select{
+    display: none;
+}
+.clar{
+    display: inline-block;
+}
+.PhoneInputAccount>input{
+    display: inline-block;
+    font-size: 2rem;
+    max-width: 30rem;
+}
+.PhoneInputAccount{
+    font-size: 2rem;
+    max-width: 30rem;
+    margin: 0 !important;
+    padding: 0 !important;
+} 
+#margin0{
+    margin: 0 !important;
+}
+.PhoneInputAccount >div{
+    font-size: 2rem;
+    max-width: 30rem;
+    margin: 0 !important;
+    padding: 0 !important;
+} 
+.accountLabel{
+    display: block;
+}
+
+#user-email{
+    display: block;  
+}
+#productsCont{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, 400px);
+    grid-row-gap: 3rem;
+    grid-column-gap:4rem;
+}
+@media screen and (max-width:1000px) {
+    #productsCont{ 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    }
+@media screen and (max-width:750px) {
+    #productsCont{ 
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    
+.AccountCont{
+    padding: 0 2.5vw 0 2.5vw;
+}
+    
+.textInput{ 
+    background-color: white; 
+    outline: none; 
+    width: 90vw;
+}
+    }

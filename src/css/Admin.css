@@ -1,0 +1,18 @@
+.productsCont{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, 300px);
+    grid-row-gap: 10rem;
+    grid-column-gap: 1em;
+}
+@media screen and (max-width:1000px) {
+    .productsCont{ 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    }
+@media screen and (max-width:750px) {
+    .productsCont{ 
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    }

@@ -1,0 +1,47 @@
+.navBar{
+    max-width:100vw;
+    background-color: #ffff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logoName{
+    font-size: 2rem;  
+ 
+}
+.links-cont{
+ display: flex;
+ gap: 20px;
+}
+.link{
+    font-size: 2rem;
+    text-decoration: none;
+    color:#1Cb5FC;
+}
+.account-link{
+    margin: 0 0 0 1rem;
+}
+
+*{
+    margin:0
+}
+.accountImg{
+    margin: 0;
+}
+@media screen and (max-width:650px) {
+.link{
+    font-size: 1.5rem;
+}
+.sign-in{
+    font-size: 1.5rem;
+}
+}
+@media screen and (max-width:500px) {
+    .link{
+        font-size: 1.2rem;
+    }
+    .sign-in{
+        font-size: 1.2rem;
+    }
+    }
